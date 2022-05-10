@@ -362,7 +362,7 @@ textarea:focus {
         width: 45px;
         height: 45px;
         /* float: right; */
-        margin: 18px 5% 0px 80%;
+        margin: 15px 5% 0px 80%;
         transition: all .5s ease-in-out;
         z-index: 5;
         position: absolute;
