@@ -127,11 +127,16 @@ transition: visibility 0s, opacity 0.5s linear; */
     height: 40px;
     background-color: rgba(255, 68, 0, 0.811);
     border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
     /* font-size: medium; */
 }
 
 .social:hover {
     background-color: rgba(255, 68, 0, 0.517);
+    box-shadow: 0px 15px 20px rgba(61, 61, 61, 0.4);
+  
+  transform: translateY(-7px);
 }
 
 .social-link {
@@ -265,12 +270,12 @@ transition: visibility 0s, opacity 0.5s linear; */
 
 .form {
     /* margin-bottom: 50px; */
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     text-align: center;
-    font-family: sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #424242;
     font-size: medium;
 }
@@ -292,8 +297,8 @@ textarea {
 }
 
 .sub {
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 35px;
     margin-top: 10px;
     margin-bottom: 20px;
     background-color: orangered;
@@ -302,11 +307,16 @@ textarea {
     color: white;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
 
 }
 
 .sub:hover {
     background-color: rgba(255, 68, 0, 0.689);
+    box-shadow: 0px 15px 20px rgba(70, 70, 70, 0.4);
+  
+  transform: translateY(-7px);
 }
 
 input:focus {
@@ -352,7 +362,7 @@ textarea:focus {
         width: 45px;
         height: 45px;
         /* float: right; */
-        margin: 23px 5% 0px 80%;
+        margin: 20px 5% 0px 80%;
         transition: all .5s ease-in-out;
         z-index: 5;
         position: absolute;
