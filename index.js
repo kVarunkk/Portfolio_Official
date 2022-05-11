@@ -17,9 +17,18 @@ var box2 = document.querySelector('.box2');
 
 //for desktop
 item1.addEventListener('click',()=>{
-    display1.style.display = 'block';
-    display2.style.display = 'none';
-    display3.style.display = 'none';
+
+    // height
+    display1.style.height = '100%';
+    display2.style.height = '0%';
+    display3.style.height = '0%';
+
+    // transform
+    display1.style.transform = 'scale(1)';
+    display2.style.transform = 'scale(0)';
+    display3.style.transform = 'scale(0)';
+
+    // color
     box2.style.backgroundColor = '#fcfcd4';
     brand.style.color = '#95b1b0';
     item1.style.color = '#4f9d9cba';
@@ -28,9 +37,21 @@ item1.addEventListener('click',()=>{
 });
 
 item2.addEventListener('click',()=>{
-    display1.style.display = 'none';
-    display2.style.display = 'block';
-    display3.style.display = 'none';
+   
+    // height
+    display1.style.height = '0%';
+    display2.style.height = '85%';
+    display3.style.height = '0%';
+
+    // transform
+    display1.style.transform = 'scale(0)';
+    display2.style.transform = 'scale(1)';
+    display3.style.transform = 'scale(0)';
+
+    // margin
+    display2.style.marginTop = '8%';
+
+    // color
     box2.style.backgroundColor = '#ffce9f';
     brand.style.color = '#5dbe7c';
     item1.style.color = '#4f9d9c';
@@ -39,9 +60,21 @@ item2.addEventListener('click',()=>{
 });
 
 item3.addEventListener('click',()=>{
-    display1.style.display = 'none';
-    display2.style.display = 'none';
-    display3.style.display = 'block';
+    
+    // height
+    display1.style.height = '0%';
+    display2.style.height = '0%';
+    display3.style.height = '100%';
+
+    // transform
+    display1.style.transform = 'scale(0)';
+    display2.style.transform = 'scale(0)';
+    display3.style.transform = 'scale(1)';
+
+    // margin
+    display2.style.marginTop = '0%';
+
+    // color
     box2.style.backgroundColor = '#7391e8';
     brand.style.color = '#b9a89a';
     item1.style.color = '#4f9d9c';
@@ -54,9 +87,16 @@ item3.addEventListener('click',()=>{
 
 //for mobile
 mob1.addEventListener('click',()=>{
-    display1.style.display = 'block';
-    display2.style.display = 'none';
-    display3.style.display = 'none';
+    
+
+    display1.style.height = '100%';
+    display2.style.height = '0%';
+    display3.style.height = '0%';
+
+    display1.style.transform = 'scale(1)';
+    display2.style.transform = 'scale(0)';
+    display3.style.transform = 'scale(0)';
+    
     box2.style.backgroundColor = '#fcfcd4';
     brand.style.color = '#95b1b0';
     mob1.style.color = '#4f9d9cba';
@@ -65,9 +105,18 @@ mob1.addEventListener('click',()=>{
 });
 
 mob2.addEventListener('click',()=>{
-    display1.style.display = 'none';
-    display2.style.display = 'block';
-    display3.style.display = 'none';
+   
+
+    display1.style.height = '0%';
+    display2.style.height = '85%';
+    display3.style.height = '0%';
+
+    display1.style.transform = 'scale(0)';
+    display2.style.transform = 'scale(1)';
+    display3.style.transform = 'scale(0)';
+
+    display2.style.marginTop = '8%';
+
     box2.style.backgroundColor = '#ffce9f';
     brand.style.color = '#5dbe7c';
     mob1.style.color = '#4f9d9c';
@@ -76,9 +125,18 @@ mob2.addEventListener('click',()=>{
 });
 
 mob3.addEventListener('click',()=>{
-    display1.style.display = 'none';
-    display2.style.display = 'none';
-    display3.style.display = 'block';
+    
+
+    display1.style.height = '0%';
+    display2.style.height = '0%';
+    display3.style.height = '100%';
+
+    display1.style.transform = 'scale(0)';
+    display2.style.transform = 'scale(0)';
+    display3.style.transform = 'scale(1)';
+
+    display2.style.marginTop = '0%';
+
     box2.style.backgroundColor = '#7391e8';
     brand.style.color = '#b9a89a';
     mob1.style.color = '#4f9d9c';
