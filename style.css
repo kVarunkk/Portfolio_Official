@@ -457,6 +457,7 @@ textarea:focus {
         margin-right: 0;
         border-radius: 10px;
         transition: 300ms ease-out;
+        transform-origin: top right;
     }
 
     ul {
