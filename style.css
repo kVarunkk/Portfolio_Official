@@ -97,8 +97,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 40px;
     color: #424242;
-    display: none;
-    transition: 750ms ease;
+    display: block;
+    transform: scale(0);
+    transition: 550ms ease-in-out;
     z-index: 1;
     /* position: relative; */
     height: 100%;
@@ -166,11 +167,14 @@ transition: visibility 0s, opacity 0.5s linear; */
 
 .container {
     width: 80%;
-    height: 80%;
+    height: 0;
     /* position: absolute; */
     /* margin: 5% 5%; */
     /* margin: auto; */
-    display: none;
+    display: block;
+    transform: scale(0);
+    transition: 550ms ease-in-out;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 8%;
@@ -254,9 +258,13 @@ transition: visibility 0s, opacity 0.5s linear; */
 }
 
 .hire-me {
-    display: none;
-    height: 100%;
+    /* display: none; */
+    height: 0;
     overflow-y: auto;
+    display: block;
+    transform: scale(0);
+    transition: 550ms ease-in-out;
+
 }
 
 .hire-me p {
@@ -362,7 +370,7 @@ textarea:focus {
         width: 45px;
         height: 45px;
         /* float: right; */
-        margin: 17px 5% 0px 80%;
+        margin: 20px 5% 0px 80%;
         transition: all .5s ease-in-out;
         z-index: 5;
         position: absolute;
@@ -412,13 +420,7 @@ textarea:focus {
     }
 
 
-    .link {
-        position: fixed;
-        text-align: center;
-        height: 100%;
-        margin-right: 0;
-        border-radius: 10px;
-    }
+    
 
 
     ul {
@@ -442,12 +444,19 @@ textarea:focus {
         float: right;
         width: 70%;
         margin-top: 0px;
+        margin-left: 25%;
         background-color: rgb(235, 232, 232);
         line-height: 70px;
         z-index: 4;
         box-shadow: 0 3px 17px 5px rgba(64, 65, 68, 0.2);
         transform: scale(0);
         padding: 5px;
+        position: fixed;
+        text-align: center;
+        height: 100%;
+        margin-right: 0;
+        border-radius: 10px;
+        transition: 300ms ease-out;
     }
 
     ul {
