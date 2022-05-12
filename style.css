@@ -11,22 +11,77 @@ body {
 .navbar {
     /* position: sticky; */
     margin-top: 15px;
+    /* margin-bottom: 30px; */
     padding: 0;
-
+    display: flex;
 }
+
+
+.brand {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    margin-right: 3%;
+    text-decoration: none;
+    color: #412929cb;
+    font-weight: 600;
+    font-size: 2.6rem;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.fa-bars{
+    font-size: 1.4rem;
+    color: #00284d;
+    /* cursor: pointer; */
+    padding: 15px;
+    margin-top: 9px;
+}
+
+.fa-bars:hover{
+    color: #00284d99;
+}
+
+.pop-container{
+    position: relative;
+    z-index: 5;
+    width: 200px;
+}
+
+.pop{
+    position: absolute;
+    background-color: #cbffb8;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-left: 0%; */
+    /* margin-right: 55%; */
+    transition: 200ms ease-in;
+    transform-origin: top left;
+    transform: scale(0);
+    display: block;
+    z-index: 5;
+    box-shadow: 0 13px 15px -2px rgba(0, 0, 0, .2);
+}
+
+.pop ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.pop li{
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
 
 .link {
     display: none;
 }
 
-.brand {
-    margin: 20px 11%;
-    text-decoration: none;
-    color: #412929cb;
-    font-weight: 600;
-    font-size: 3rem;
-    font-family: 'League Spartan', sans-serif;
-}
+
 
 
 
@@ -54,7 +109,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 10%;
+    margin-left: 6%;
 }
 
 .box1 li {
@@ -90,6 +145,7 @@ body {
     margin: auto 0;
     box-shadow: 0 13px 15px -2px rgba(0, 0, 0, .2);
     position: relative;
+    margin-right: 5%;
 }
 
 .about-me {
@@ -356,11 +412,26 @@ textarea:focus {
 @media(max-width : 480px) {
 
     .brand {
+        margin-top: 20px;
         margin-left: 7%;
+        font-size: 3rem;
     }
 
     .navbar {
         display: flex;
+        margin-bottom: 0;
+    }
+
+    .pop{
+        display: none;
+    }
+
+    .pop-container{
+        display: none;
+    }
+
+    .fa-bars{
+        display: none;
     }
 
     .menu-btn {
