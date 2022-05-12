@@ -145,4 +145,24 @@ mob3.addEventListener('click',()=>{
 });
 
 
+// for pop
+
+var bar = document.querySelector('.fa-bars');
+var popup = document.querySelector('.pop');
+
+bar.addEventListener('mouseover', ()=>{
+    popup.style.transform = 'scale(1)';
+});
+
+bar.addEventListener('mouseout', ()=>{
+    popup.style.transform = 'scale(0)';
+});
+
+popup.addEventListener('mouseover',()=>{
+     popup.style.transform= 'scale(1)'; 
+});
+
+popup.addEventListener('mouseout',()=>{
+    popup.style.transform = 'scale(0)'; 
+});
 
