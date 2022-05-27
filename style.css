@@ -172,11 +172,21 @@ url("Background3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+     animation: animatedBackground 8s linear infinite alternate;
+/*     background-size: cover; */
     /* position: relative; */
     /* margin-right: 5%; */
 }
 
+
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
 
 .title{
     width: 100%;
@@ -197,7 +207,7 @@ url("Background3.jpg");
    margin-top: 13%;
    transition: all 300ms ease;
    animation-name: rotate; 
-    animation-duration: 6s; 
+    animation-duration: 5s; 
     animation-iteration-count: infinite;
 }
 
