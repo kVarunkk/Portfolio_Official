@@ -802,6 +802,10 @@ url("Background3.jpg");
         width: 100%;
     }
 
+    .brand{
+        margin-left: 6%;
+    }
+
     .box1{
         width: 33%;
         font-size: 3rem;
@@ -812,17 +816,25 @@ url("Background3.jpg");
         background-attachment: scroll;
     }
 
+    .title{
+        display: none;
+    }
+
     .container{
-        width: 90%;
+        width: 100%;
     }
 
-    .user-text{
-        width: 68%;
-        left: 5%;
-        top: 70%;
+    .skills{
+        flex-wrap: wrap;
     }
 
-    .user-img{
-        right: 37%;
+    .reviews-text{
+        line-height: 45px;
     }
+
+    .todo, .bithereum{
+        width: 55%;
+    }
+
+    
 }
