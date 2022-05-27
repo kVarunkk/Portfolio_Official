@@ -558,6 +558,24 @@ textarea:focus {
 
 @media(max-width : 480px) {
 
+    .bg {
+        background-image:
+url("Background3.jpg");
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .wrapper {
+        position: absolute;
+        margin-top: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
     .brand {
         margin-top: 20px;
         margin-left: 7%;
@@ -716,11 +734,14 @@ textarea:focus {
     .box2 {
         width: 85%;
         margin: 70px auto;
+        background-attachment: scroll;
     }
 
     .title{
         font-size: 2.5rem;
         margin-top: 30%;
+        font-family: 'Satisfy', cursive;
+        display: none;
     }
 
     .social-link {
@@ -744,14 +765,8 @@ textarea:focus {
         margin: 30px auto;
     }
 
-    .user-text {
-        left: 3%;
-        width: 48%;
-    }
-
-    .user-img {
-        right: 56%;
-        height: 40%;
+    .reviews-text{
+        line-height: 50px;
     }
 
     .form-block {
@@ -769,6 +784,24 @@ textarea:focus {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px){
 
+    .bg {
+        background-image:
+url("Background3.jpg");
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .wrapper {
+        position: absolute;
+        margin-top: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
     .box1{
         width: 33%;
         font-size: 3rem;
@@ -776,6 +809,7 @@ and (max-device-width : 1024px){
 
     .box2{
         width: 60%;
+        background-attachment: scroll;
     }
 
     .container{
