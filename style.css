@@ -25,12 +25,16 @@ url("Background3.jpg");
     /* margin-bottom: 30px; */
     padding: 0;
     display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 
 .brand {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 9%;
     margin-right: 3%;
     text-decoration: none;
@@ -42,11 +46,13 @@ url("Background3.jpg");
 }
 
 .fa-bars{
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 1.4rem;
     color: #00284d;
     /* cursor: pointer; */
     padding: 15px;
-    margin-top: 9px;
+    /* margin-top: 9px; */
 }
 
 .fa-bars:hover{
@@ -106,6 +112,7 @@ url("Background3.jpg");
     display: flex;
     /* text-align: center; */
     justify-content: center;
+    
 }
 
 .box1 {
@@ -172,12 +179,11 @@ url("Background3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-     animation: animatedBackground 8s linear infinite alternate;
-/*     background-size: cover; */
+    /* background-size: cover; */
+    animation: animatedBackground 8s linear infinite alternate;
     /* position: relative; */
     /* margin-right: 5%; */
 }
-
 
 @keyframes animatedBackground {
     from {
@@ -187,6 +193,7 @@ url("Background3.jpg");
       background-position: 100% 0;
     }
   }
+
 
 .title{
     width: 100%;
@@ -202,7 +209,7 @@ url("Background3.jpg");
 }
 
 .title img{
-    width: 100%;
+    width: 85%;
     height: auto;
    margin-top: 13%;
    transition: all 300ms ease;
@@ -395,7 +402,7 @@ transition: visibility 0s, opacity 0.5s linear; */
 
 
 .bithereum{
-    width: 33%;
+    width: 30%;
     height: auto;
     transition: all 0.3s ease;
 }
@@ -406,6 +413,11 @@ transition: visibility 0s, opacity 0.5s linear; */
     width: 32%;
     height: auto;
     transition: all 0.3s ease;
+}
+
+.portfolio{
+    width: 30%;
+    height: auto;
 }
 
 .reviews-text {
@@ -784,6 +796,7 @@ url("Background3.jpg");
 
     .title img{
         margin-top: 15%;
+        width: 100%;
     }
 
     
@@ -803,6 +816,10 @@ url("Background3.jpg");
 
     .todo{
         width: 73%;
+    }
+
+    .portfolio{
+        width: 70%;
     }
 
     .arrows{
@@ -850,9 +867,7 @@ url("Background3.jpg");
         width: 100%;
     }
 
-    .fa-bars{
-        margin-top: 0;
-    }
+    
 
     .brand{
         margin-left: 6%;
