@@ -37,7 +37,7 @@ item1.addEventListener('click',()=>{
     // color
     
     box2.style.backgroundImage = 'linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%)';
-    // brand.style.color = '#95b1b0';
+    
     item1.style.color = '#4f9d9cba';
     item2.style.color = '#4f9d9c';
     item3.style.color = '#4f9d9c';
@@ -60,12 +60,12 @@ item2.addEventListener('click',()=>{
     display4.style.transform = 'scale(0)';
 
     // margin
-    // display2.style.marginTop = '4%';
+    
 
     // color
-    // box2.style.backgroundColor = '#ffce9f';
+    
     box2.style.backgroundImage = 'linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%)';
-    // brand.style.color = '#5dbe7c';
+    
     item1.style.color = '#4f9d9c';
     item2.style.color = '#4f9d9cba';
     item3.style.color = '#4f9d9c';
@@ -91,9 +91,9 @@ item3.addEventListener('click',()=>{
     display2.style.marginTop = '0%';
 
     // color
-    // box2.style.backgroundColor = '#7391e8';
+    
     box2.style.backgroundImage = 'linear-gradient(to right top, #211c3f, #413d6a, #626199, #8588cb, #a8b1ff)';
-    // brand.style.color = '#b9a89a';
+    
     item1.style.color = '#4f9d9c';
     item2.style.color = '#4f9d9c';
     item3.style.color = '#4f9d9cba';
@@ -121,7 +121,7 @@ mob1.addEventListener('click',()=>{
     box2.style.backgroundImage = 'linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%)';
     box2.style.height = '80vh';
     box2.style.marginTop = '70px';
-    // brand.style.color = '#95b1b0';
+    
     mob1.style.color = '#4f9d9cba';
     mob2.style.color = '#4f9d9c';
     mob3.style.color = '#4f9d9c';
@@ -143,12 +143,12 @@ mob2.addEventListener('click',()=>{
     display3.style.transform = 'scale(0)';
     display4.style.transform = 'scale(0)';
 
-    // display2.style.marginTop = '8%';
+    
 
     box2.style.backgroundImage = 'linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%)';
     box2.style.height = '80vh';
     box2.style.marginTop = '70px';
-    // brand.style.color = '#5dbe7c';
+    
     mob1.style.color = '#4f9d9c';
     mob2.style.color = '#4f9d9cba';
     mob3.style.color = '#4f9d9c';
@@ -175,7 +175,7 @@ mob3.addEventListener('click',()=>{
     box2.style.backgroundImage = 'linear-gradient(to right top, #211c3f, #413d6a, #626199, #8588cb, #a8b1ff)';
     box2.style.height = '80vh';
     box2.style.marginTop = '70px';
-    // brand.style.color = '#b9a89a';
+    
     mob1.style.color = '#4f9d9c';
     mob2.style.color = '#4f9d9c';
     mob3.style.color = '#4f9d9cba';
@@ -202,7 +202,7 @@ mob5.addEventListener('click',()=>{
     box2.style.backgroundImage = 'url("retro-back.jpg")';
     box2.style.height = '40vh';
     box2.style.marginTop = '150px'
-    // brand.style.color = '#b9a89a';
+    
     mob1.style.color = '#4f9d9c';
     mob2.style.color = '#4f9d9c';
     mob3.style.color = '#4f9d9c';
@@ -247,7 +247,7 @@ pop1.addEventListener('click',()=>{
     display3.style.transform = 'scale(0)';
     display4.style.transform = 'scale(1)';
 
-    // display4.style.marginTop = '13%';
+    
 
     box2.style.backgroundImage = 'url("retro-back.jpg")';
 
