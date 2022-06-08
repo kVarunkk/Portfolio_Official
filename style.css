@@ -455,10 +455,8 @@ body {
 }
 
 .hire-me p {
-    font-size: 1.3rem;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
-    /* font-style: italic; */
     line-height: 40px;
     color: #dcdcdc;
     margin-left: 10px;
