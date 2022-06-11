@@ -350,7 +350,13 @@ list.addEventListener('click',()=>{
 brand = document.querySelector('.brand');
 
 setInterval(
-    function () {
-      var randomColor = Math.floor(Math.random()*16777215).toString(16);
-      brand.style.color = "#"+randomColor;
+
+    function(){
+        let random1 = Math.floor(256*Math.random());
+        let random2 = Math.floor(256*Math.random());
+        let random3 = Math.floor(256*Math.random());
+        brand.style.color = `rgb(${random1},${random2},${random3})`
     },1000);
+
+
+    
