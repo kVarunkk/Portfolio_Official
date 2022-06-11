@@ -17,6 +17,13 @@ var box2 = document.querySelector('.box2');
 
 
 
+//for animation
+$(window).on('load',(function(){
+    $(".titleImg").addClass("animation"); 
+}))
+
+
+
 //for desktop
 item1.addEventListener('click',()=>{
 
