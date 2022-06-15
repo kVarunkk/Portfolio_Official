@@ -97,6 +97,10 @@ body{
     border-radius: 10px;
     background-color: red;
   }
+
+  .arrows{
+    display: none;
+  }
   
   
   
