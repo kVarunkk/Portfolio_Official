@@ -114,7 +114,7 @@ function moveUser2(){
 }  
 
 user.addEventListener('touchmove', moveUser1)
-user.addEventListener('touchmove', moveUser2)
+// user.addEventListener('touchmove', moveUser2)
 
 
 //draw User
