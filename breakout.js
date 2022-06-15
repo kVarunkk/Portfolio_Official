@@ -113,8 +113,8 @@ function moveUser2(){
   }
 }  
 
-left.addEventListener('click', moveUser1)
-right.addEventListener('click', moveUser2)
+left.addEventListener('touchstart', moveUser1)
+right.addEventListener('touchstart', moveUser2)
 
 
 //draw User
