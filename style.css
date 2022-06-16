@@ -547,6 +547,29 @@ textarea:focus {
 }
 
 
+/* for thank you page */
+.thankHead, .thankChild{
+    text-align: center;
+}
+
+.thankHead{
+    margin-bottom:100px;
+    font-family: 'Merriweather';
+    color: #00284d;
+}
+
+.thankChild{
+    font-family: 'Beau Rivage';
+    font-size: 3rem;
+    color:#424242;
+}
+
+.thankA{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
 @media(max-width : 767px) {
 
     .bg {
