@@ -12,7 +12,7 @@ body {
     background-size: cover;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
-.fa-bars{
+.fa-bars {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 1.4rem;
@@ -45,17 +45,17 @@ body {
     padding: 15px;
 }
 
-.fa-bars:hover{
+.fa-bars:hover {
     color: #00284d99;
 }
 
-.pop-container{
+.pop-container {
     position: relative;
     z-index: 5;
     width: 200px;
 }
 
-.pop{
+.pop {
     position: absolute;
     background-color: #d3fac5;
     border-radius: 12px;
@@ -68,24 +68,24 @@ body {
     box-shadow: 0 13px 15px -2px rgba(0, 0, 0, .2);
 }
 
-.pop ul{
+.pop ul {
     list-style: none;
     padding: 10px;
     margin: 0;
 }
 
-.pop li{
+.pop li {
     padding: 10px;
     cursor: pointer;
     margin: 5px;
 }
 
-.pop a{
+.pop a {
     color: black;
     text-decoration: none;
 }
 
-.pop li:hover{
+.pop li:hover {
     text-decoration: underline;
 }
 
@@ -103,7 +103,7 @@ body {
 .flexbox {
     display: flex;
     justify-content: center;
-    margin-bottom:80px;
+    margin-bottom: 80px;
 }
 
 .box1 {
@@ -151,33 +151,34 @@ body {
 
 @keyframes animatedBackground {
     0% {
-      background-position: 0 0;
+        background-position: 0 0;
     }
+
     100% {
-      background-position: 100% 0;
+        background-position: 100% 0;
     }
 }
 
 
 
 
-.title{
+.title {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     color: #003362;
     text-shadow: 4px 5px rgb(255, 255, 255);
-    cursor: default; 
+    cursor: default;
 }
 
-.title img{
+.title img {
     width: 75%;
     display: block;
     height: auto;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     margin-top: 13%;
-    transition: all 300ms ease; 
+    transition: all 300ms ease;
 }
 
 
@@ -185,17 +186,22 @@ body {
 
 
 @keyframes rotate {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-.animation{
-    animation-name: rotate; 
+.animation {
+    animation-name: rotate;
     animation-duration: 5s;
 }
 
 
-.retro{
+.retro {
     background-image: url("retro-back.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -222,12 +228,12 @@ body {
     color: rgb(49, 49, 49);
 }
 
-.skill-box{
+.skill-box {
     margin-bottom: 100px;
     margin-top: 70px;
 }
 
-.skill-head{
+.skill-head {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
@@ -235,22 +241,22 @@ body {
     color: #000000b8;
 }
 
-.skills{
+.skills {
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
     justify-content: center;
 }
 
-.skills img{
+.skills img {
     width: 60px;
     height: auto;
-    transition: all 0.3s ease ;
+    transition: all 0.3s ease;
     opacity: 0.8;
 }
 
-.skills img:hover{
-    transform:scale(1.4);
+.skills img:hover {
+    transform: scale(1.4);
 }
 
 
@@ -262,7 +268,7 @@ body {
     padding: 7px;
     text-align: center;
     display: block;
-    border: solid 2px rgba(255, 233, 225, 0.811) ;
+    border: solid 2px rgba(255, 233, 225, 0.811);
     border-radius: 20px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
@@ -280,11 +286,11 @@ body {
     font-weight: bold;
 }
 
-.btn2{
+.btn2 {
     color: rgba(255, 0, 0, 0.608);
     border-color: red;
-    width:35%;
-    padding:0 7px;
+    width: 35%;
+    padding: 0 7px;
 }
 
 .fa-envelope, .fa-linkedin, .fa-github, .fa-download {
@@ -329,41 +335,41 @@ body {
     margin: auto;
 }
 
-.reviews-img{
+.reviews-img {
     text-align: center;
 }
 
 
-.bithereum{
+.bithereum {
     width: 34%;
     height: auto;
     transition: all 0.3s ease;
 }
 
-.todo{
+.todo {
     width: 33%;
     height: auto;
     transition: all 0.3s ease;
 }
 
-.whatsapp{
+.whatsapp {
     width: 34%;
     height: auto;
 }
 
-.weather{
+.weather {
     width: 35%;
     height: auto;
 }
 
 /* test */
 
-.quiz{
+.quiz {
     width: 34%;
     height: auto;
 }
 
-.portfolio{
+.portfolio {
     width: 34%;
     height: auto;
 }
@@ -379,7 +385,7 @@ body {
 }
 
 
-.lang{
+.lang {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -387,13 +393,13 @@ body {
     margin-bottom: 50px;
 }
 
-.lang img{
+.lang img {
     width: 5%;
     height: auto;
 }
 
-.showSlide a{
-    font-family:'Courier New', Courier, monospace;
+.showSlide a {
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: large;
     color: #00284d;
@@ -403,7 +409,7 @@ body {
     display: flex;
     margin: 0 auto;
     gap: 75%;
-    text-align:center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -478,7 +484,7 @@ body {
     margin-right: auto;
     margin-top: 20px;
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #424242;
     font-size: medium;
 }
@@ -488,7 +494,7 @@ body {
     border: 0;
     border-radius: 5px;
     margin-bottom: 30px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 8px;
 }
 
@@ -517,8 +523,8 @@ textarea {
 .sub:hover {
     background-color: rgba(255, 68, 0, 0.689);
     box-shadow: 0px 15px 20px rgba(70, 70, 70, 0.4);
-  
-  transform: translateY(-7px);
+
+    transform: translateY(-7px);
 }
 
 input:focus {
@@ -548,23 +554,23 @@ textarea:focus {
 
 
 /* for thank you page */
-.thankHead, .thankChild{
+.thankHead, .thankChild {
     text-align: center;
 }
 
-.thankHead{
-    margin-bottom:100px;
+.thankHead {
+    margin-bottom: 100px;
     font-family: 'Merriweather';
     color: #00284d;
 }
 
-.thankChild{
+.thankChild {
     font-family: 'Beau Rivage';
     font-size: 3rem;
-    color:#424242;
+    color: #424242;
 }
 
-.thankA{
+.thankA {
     font-family: 'Montserrat';
     font-weight: bold;
 }
@@ -600,15 +606,15 @@ textarea:focus {
         margin-bottom: 0;
     }
 
-    .pop{
+    .pop {
         display: none;
     }
 
-    .pop-container{
+    .pop-container {
         display: none;
     }
 
-    .fa-bars{
+    .fa-bars {
         display: none;
     }
 
@@ -668,7 +674,7 @@ textarea:focus {
     }
 
 
-    
+
 
 
     ul {
@@ -712,7 +718,7 @@ textarea:focus {
         text-decoration-thickness: 3px;
     }
 
-    .link a{
+    .link a {
         text-decoration: none;
         color: #4f9d9c;
         font-size: 1.5rem;
@@ -746,7 +752,7 @@ textarea:focus {
         transition: all 0.3s ease;
     }
 
-    .title img{
+    .title img {
         margin-top: 15%;
         width: 100%;
     }
@@ -756,44 +762,44 @@ textarea:focus {
         font-size: medium;
     }
 
-    .skills{
+    .skills {
         flex-wrap: wrap;
     }
 
-    .bithereum{
+    .bithereum {
         width: 75%;
     }
 
-    .todo{
+    .todo {
         width: 70%;
     }
 
-    .whatsapp{
+    .whatsapp {
         width: 70%;
     }
-    
-    .weather{
+
+    .weather {
         width: 73%;
     }
-    
-    .quiz{
+
+    .quiz {
         width: 72%;
     }
 
-    .portfolio{
+    .portfolio {
         width: 72%;
     }
 
-    .arrows{
+    .arrows {
         gap: 50%;
     }
 
-    .reviews-text{
+    .reviews-text {
         line-height: 40px;
         font-size: 1.1rem;
     }
 
-    .lang img{
+    .lang img {
         width: 13%;
     }
 
@@ -808,9 +814,7 @@ textarea:focus {
 
 
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
     .bg {
         background-image: url("Background3.jpg");
@@ -829,22 +833,22 @@ and (max-device-width : 1024px){
         width: 100%;
     }
 
-    .brand{
+    .brand {
         margin-left: 6%;
     }
 
-    .flexbox{
+    .flexbox {
         flex-direction: column;
         justify-content: center;
     }
 
-    .box1 ul{
+    .box1 ul {
         display: flex;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .box1{
+    .box1 {
         width: 90%;
         text-align: center;
         margin-left: auto;
@@ -853,37 +857,37 @@ and (max-device-width : 1024px){
         font-size: 3rem;
     }
 
-    .box1 li{
-        overflow:visible;
+    .box1 li {
+        overflow: visible;
     }
 
-    .box2{
+    .box2 {
         width: 80%;
         height: 600px;
         margin-left: auto;
         margin-right: auto;
         background-attachment: scroll;
-    }    
+    }
 
-    .container{
+    .container {
         width: 100%;
     }
 
-    .skills{
+    .skills {
         flex-wrap: wrap;
     }
 
-    .reviews-text{
+    .reviews-text {
         line-height: 45px;
     }
 
-    .lang img{
+    .lang img {
         width: 10%;
     }
 
-    .todo, .bithereum, .portfolio, .whatsapp ,.weather, .quiz{
+    .todo, .bithereum, .portfolio, .whatsapp, .weather, .quiz {
         width: 45%;
     }
 
-    
+
 }
