@@ -1,3 +1,3 @@
-This is my Portfolio which I sue to display all my projects. You'll find all my contacts here :)
+# Portfolio_Official
 
-Live: https://kvarunkk.github.io/Portfolio_Official/
+This is my Portfolio which I use to display all my projects. You'll find all my contacts here :)
